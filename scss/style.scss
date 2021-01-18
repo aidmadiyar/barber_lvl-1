@@ -1,0 +1,16 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+@import "_page";
+@import "_visually-hidden";
+@import "_link";
+@import "_list";
+@import "_header";
+@import "_nav";
